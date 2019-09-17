@@ -1,0 +1,28 @@
+#evolution {
+    background-color: #eee;
+    color: #111;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+#evolution .brand+.imgs {
+    margin-left: 1rem;
+}
+
+#evolution .info {
+    font-style: italic;
+}
+
+#evolution .info::before {
+    content: '*'
+}
+
+#evolution .btn {
+    background-color: #111;
+    color: #eee;
+}
+
+#evolution h1, #evolution h2 {
+    font-weight: bold;
+}

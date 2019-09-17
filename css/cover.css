@@ -1,0 +1,38 @@
+#cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.25em;
+    padding: 1rem;
+}
+
+#cover #signature {
+    animation-name: fadein;
+    animation-duration: 1000ms;
+    animation-timing-function: ease-out;
+}
+
+#cover #signature img {
+    width: 400px;
+}
+
+#cover .brand {
+    height: 300px;
+    text-align: right;
+}
+
+#cover .brand h1 {
+    font-size: 6rem;
+    font-weight: 10;
+}
+
+#cover .brand {
+    animation-name: fadeintoright;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+}
+
+#cover a {
+    margin-top: 0.5rem;
+}

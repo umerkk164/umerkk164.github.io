@@ -1,0 +1,37 @@
+#drawboard {
+    background: linear-gradient(95.65deg,#0077bf,#0880c5 20.36%,#1c9ad6 54.11%,#1e9cd7 56.74%,#0075be 86.52%,#007e97 99.44%);
+}
+
+#drawboard .brand {
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#drawboard .title {
+    font-size: 4rem;
+    font-weight: 300;
+}
+#drawboard .sub {
+    font-weight: 300;
+}
+#drawboard .imgs {
+    /* position: absolute; */
+    right: 8rem;
+}
+#drawboard .imgs img {
+    /* position: absolute; */
+    left: 0px;
+    width: 300px;
+    /* box-shadow: 0px 0px 0px 5px rgba(50,50,50,1); */
+    /* border-radius: 0.5rem; */
+}
+#drawboard .imgs img:nth-child(2) {
+    left: 150px;
+    top: 80px;
+}
+
+#drawboard .info {
+    font-size: 0.75rem;
+}

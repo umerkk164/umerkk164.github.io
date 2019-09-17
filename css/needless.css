@@ -1,0 +1,28 @@
+#needless {
+    background: url('/img/needlessbg.png');
+    padding: 5rem 5rem;
+}
+
+#needless .brand {
+    display: flex;
+    align-items: center;
+}
+
+#needless .logo img {
+    width: 250px;
+    margin-right: 2rem;
+}
+
+#needless .title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#needless .sub {
+    margin-bottom: 0.5rem;
+}
+
+#needless .info {
+    font-size: 0.75rem;
+}

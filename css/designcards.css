@@ -1,0 +1,53 @@
+#designs {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100vh; */
+    font-size: 1.25em;
+    padding: 1rem 0rem;
+    overflow-x: auto;
+}
+
+#designs .card+.card {
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+}
+
+#designs .card {
+    height: 300px;
+    background-color: white;
+    /* min-width: 800px; */
+    min-width: 100%;
+    padding: 1rem 2rem;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-size: 1rem;
+}
+
+#designs .brand {
+    flex: 9;
+}
+
+.brand h1 {
+    font-size: 2rem;
+}
+
+#designs .dispimg {
+    flex: 16;
+    background-color: #ddd;
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+#designs .dispimg img {
+    /* box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1); */
+    width: 100%;
+}
+
+.btn.dark {
+    background-color: #111;
+    color: white;
+}
