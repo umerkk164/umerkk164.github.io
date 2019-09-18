@@ -120,13 +120,14 @@
     font-size: 5rem;
 }
 
-#cover #signature img {
+#cover #signature {
     padding: 1rem;
     margin-bottom: 3rem;
     margin-top: 5rem;
-    display: block;
-    height: auto;
-    width: 80vw;
+    width: 300px;
+    /* display: block; */
+    /* height: auto; */
+    /* width: 80vw; */
 }
 
 #skills {
