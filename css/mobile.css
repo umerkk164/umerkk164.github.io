@@ -53,6 +53,10 @@
     padding: 0rem !important;
 }
 
+.imgs {
+    margin-left: 0px !important;
+}
+
 #optics .info {
     /* background-color: transparent; */
     /* text-align: right; */

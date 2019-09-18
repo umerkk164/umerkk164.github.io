@@ -28,6 +28,7 @@
 
 #designs .brand {
     flex: 9;
+    width: 100%;
 }
 
 .brand h1 {

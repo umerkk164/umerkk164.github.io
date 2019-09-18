@@ -8,9 +8,10 @@
 }
 
 #cover #signature {
-    animation-name: fadein;
+    /* animation-name: fadein;
     animation-duration: 1000ms;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-out; */
+    width: 400px;
 }
 
 #cover #signature img {
@@ -28,9 +29,12 @@
 }
 
 #cover .brand {
+    opacity: 0;
     animation-name: fadeintoright;
     animation-duration: 500ms;
     animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 #cover a {

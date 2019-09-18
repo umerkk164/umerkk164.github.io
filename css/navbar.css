@@ -1,15 +1,11 @@
 nav.main {
     --hover-bg: #fff;
     --hover-color: black;
-
     --select-color: white;
     --select-bg: var(--primary-color);
-
     --group-width: 200px;
     --padding: 0.5rem 1rem;
-
     --group-delay: 0.3s;
-
     position: fixed;
     padding: 0.5rem;
     top: 0%;
@@ -42,6 +38,7 @@ nav.main li {
     flex-direction: column;
     padding: 0rem;
 }
+
 nav.main li a {
     color: var(--color);
     padding: 0.5rem 0rem;
@@ -51,6 +48,7 @@ nav.main li a {
     width: 150px;
     opacity: 0.8;
 }
+
 nav.main li:hover a {
     /* background-color: var(--hover-bg);
     color: var(--hover-color); */
@@ -59,19 +57,17 @@ nav.main li:hover a {
 }
 
 nav.main li.selected a, nav.main li.selected:hover a {
-    
-    background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 191, 255, 1) 0%,rgba(132, 127, 255, 1) 100%);
-    background : -webkit-linear-gradient(0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
-    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(0, 191, 255, 1) ),color-stop(1,rgba(132, 127, 255, 1) ));
-    background : -o-linear-gradient(0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
-    background : -ms-linear-gradient(0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
+    background: -moz-linear-gradient(0% 50% 0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
+    background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, rgba(0, 191, 255, 1)), color-stop(1, rgba(132, 127, 255, 1)));
+    background: -o-linear-gradient(0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
+    background: -ms-linear-gradient(0deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BFFF', endColorstr='#847FFF' ,GradientType=0)";
-    background : linear-gradient(90deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
-    border-radius : 21px;
-    -moz-border-radius : 21px;
-    -webkit-border-radius : 21px;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BFFF',endColorstr='#847FFF' , GradientType=1);
-
+    background: linear-gradient(90deg, rgba(0, 191, 255, 1) 0%, rgba(132, 127, 255, 1) 100%);
+    border-radius: 21px;
+    -moz-border-radius: 21px;
+    -webkit-border-radius: 21px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BFFF', endColorstr='#847FFF', GradientType=1);
     color: var(--select-color);
     font-weight: initial;
     opacity: 1;
