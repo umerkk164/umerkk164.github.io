@@ -4,22 +4,21 @@
     align-items: center;
     font-weight: 100;
     line-height: 1.45em;
-    color: rgba(255,255,255,0.5);
-
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 6rem;
 }
 
 #skills h1 {
     font-size: 5em;
     line-height: 0em;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
 }
 
 span.bold {
     font-weight: 300;
     font-size: 1.5em;
     line-height: 0em;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .inline {

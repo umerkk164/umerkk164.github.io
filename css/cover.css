@@ -5,6 +5,7 @@
     height: 100vh;
     font-size: 1.25em;
     padding: 1rem;
+    min-height: 500px;
 }
 
 #cover #signature {
