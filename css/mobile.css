@@ -1,161 +1,177 @@
 :root {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+.about {
+  padding: 1rem;
+  height: auto;
+  display: block;
+}
+
+.about .body {
+  grid-template-columns: 1fr;
 }
 
 .container {
-    padding: 0rem;
+  padding: 0rem;
 }
 
 .display {
-    flex-direction: column;
-    padding: 5rem 1rem !important;
+  flex-direction: column;
+  padding: 5rem 1rem !important;
 }
 
 .display .brand {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .imgs {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgs img {
-    width: 100% !important;
+  width: 100% !important;
 }
 
-.imgs img+img {
-    margin-top: 1rem;
+.imgs img + img {
+  margin-top: 1rem;
 }
 
 .info {
-    font-size: 1rem !important;
+  font-size: 1rem !important;
 }
 
 #needless .logo {
-    margin-bottom: 2rem !important;
-    display: flex;
-    justify-content: center;
+  margin-bottom: 2rem !important;
+  display: flex;
+  justify-content: center;
 }
 
-.container>.title {
-    text-align: center;
+.container > .title {
+  text-align: center;
 }
 
 #optics .brand {
-    margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 #optics {
-    padding: 0rem !important;
+  padding: 0rem !important;
 }
 
 .imgs {
-    margin-left: 0px !important;
+  margin-left: 0px !important;
 }
 
 #optics .info {
-    /* background-color: transparent; */
-    /* text-align: right; */
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background-color: rgba(30, 30, 30, 0.9);
-    float: right;
-    width: 100%;
-    /* visibility: hidden; */
-    /* text-shadow: 0px 0px 5px 5px black; */
+  /* background-color: transparent; */
+  /* text-align: right; */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(30, 30, 30, 0.9);
+  float: right;
+  width: 100%;
+  /* visibility: hidden; */
+  /* text-shadow: 0px 0px 5px 5px black; */
 }
 
 #optics .brand {
-    padding: 3rem 1rem;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 1rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #needless .logo img {
-    width: 100% !important;
-    padding: 0rem;
-    margin: 0px !important;
+  width: 100% !important;
+  padding: 0rem;
+  margin: 0px !important;
 }
 
 #designs .card {
-    flex-direction: column;
-    height: auto;
-    padding: 3rem 1rem;
+  flex-direction: column;
+  height: auto;
+  padding: 3rem 1rem;
 }
 
 #designs .dispimg {
-    margin-top: 2rem;
-    margin-left: 0rem;
+  margin-top: 2rem;
+  margin-left: 0rem;
 }
 
-#designs .card+.card {
-    margin-left: 0rem;
-    margin-top: 1rem;
+#designs .card + .card {
+  margin-left: 0rem;
+  margin-top: 1rem;
 }
 
-#evolution .brand+.imgs {
-    margin-left: 0rem;
+#evolution .brand + .imgs {
+  margin-left: 0rem;
 }
 
 .splash {
-    padding: 0rem !important;
+  padding: 0rem !important;
 }
 
 #cover {
-    flex-direction: column;
-    /* height: auto; */
-    margin-bottom: 10rem;
-    height: 80vh;
+  flex-direction: column;
+  /* height: auto; */
+  margin-bottom: 10rem;
+  height: 80vh;
 }
 
 #cover .brand {
-    height: auto;
+  height: auto;
 }
 
 #cover .brand h1 {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 #cover #signature {
-    padding: 1rem;
-    margin-bottom: 3rem;
-    margin-top: 5rem;
-    width: 300px;
-    /* display: block; */
-    /* height: auto; */
-    /* width: 80vw; */
+  padding: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  width: 300px;
+  /* display: block; */
+  /* height: auto; */
+  /* width: 80vw; */
 }
 
 #skills {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 #skills .brand {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 nav.main {
-    background: #111;
-    padding: 1rem 0rem;
-    justify-content: center;
+  background: #111;
+  padding: 1rem 0rem;
+  justify-content: center;
+  position: sticky;
 }
 
-nav.main.scrolled ul, nav.main ul {
-    width: auto;
-    font-size: 1.25rem;
+#cover .brand {
+  min-width: unset;
+}
+
+nav.main.scrolled ul,
+nav.main ul {
+  width: auto;
+  font-size: 1.25rem;
 }
 
 nav.main li a {
-    padding: 0.5rem 2rem;
-    text-align: center;
-    width: auto;
-    font-weight: normal;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  width: auto;
+  font-weight: normal;
 }
 
 nav.main li:hover a {
-    font-weight: normal;
+  font-weight: normal;
 }

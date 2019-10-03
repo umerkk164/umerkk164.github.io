@@ -1,0 +1,20 @@
+.about {
+  font-weight: 100;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.about .title {
+  font-size: 5rem;
+}
+
+.about .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+}

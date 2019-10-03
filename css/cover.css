@@ -1,43 +1,74 @@
 #cover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 1.25em;
-    padding: 1rem;
-    min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.25em;
+  padding: 1rem;
+  min-height: 500px;
 }
 
 #cover #signature {
-    /* animation-name: fadein;
+  /* animation-name: fadein;
     animation-duration: 1000ms;
     animation-timing-function: ease-out; */
-    width: 400px;
+  width: 400px;
+}
+
+.socials {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.socials > div {
+  display: flex;
+  background-color: white;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.socials a {
+  margin-top: 0px !important;
+  width: 40px;
+  height: 40px;
+}
+
+.socials > div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100rem;
+  /* padding: 0.25rem; */
+  background-color: black;
+}
+
+.socials a + a {
+  margin-left: 0.25rem;
 }
 
 #cover #signature img {
-    width: 400px;
+  width: 400px;
 }
 
 #cover .brand {
-    height: 300px;
-    text-align: right;
+  height: 300px;
+  text-align: right;
+  min-width: 400px;
 }
 
 #cover .brand h1 {
-    font-size: 6rem;
-    font-weight: 10;
+  font-size: 6rem;
+  font-weight: 10;
 }
 
 #cover .brand {
-    opacity: 0;
-    animation-name: fadeintoright;
-    animation-duration: 500ms;
-    animation-timing-function: ease-out;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
+  opacity: 0;
+  animation-name: fadeintoright;
+  animation-duration: 500ms;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 #cover a {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
