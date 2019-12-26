@@ -1,0 +1,52 @@
+#watchtoday {
+  background: linear-gradient(95.65deg,#8900bf 30%,#a101d1 54.11%,#005dd6 99.44%);
+}
+
+#watchtoday .brand {
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#watchtoday .title {
+  font-size: 4rem;
+  font-weight: 400;
+}
+#watchtoday .title span {
+  font-weight: bolder;
+}
+
+#watchtoday .sub {
+  font-weight: 300;
+}
+#watchtoday .imgs {
+  /* position: absolute; */
+  right: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+#watchtoday .imgs img {
+  /* position: absolute; */
+  left: 0px;
+  width: 300px;
+  border: 3px solid white;
+
+  /* box-shadow: 0px 0px 5px 3px rgba(193, 118, 255, 1); */
+  /* border-radius: 0.5rem; */
+}
+img + img {
+  margin-top: 1rem;
+}
+#watchtoday .imgs img:nth-child(2) {
+  left: 150px;
+  top: 80px;
+}
+
+#watchtoday .info {
+  font-size: 1rem;
+  /* list-style-type: circle; */
+}

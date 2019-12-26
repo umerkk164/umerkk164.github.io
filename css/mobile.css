@@ -175,3 +175,7 @@ nav.main li a {
 nav.main li:hover a {
   font-weight: normal;
 }
+
+#watchtoday {
+  background: linear-gradient(0deg,#8900bf 30%,#a101d1 54.11%,#005dd6 99.44%);
+}
