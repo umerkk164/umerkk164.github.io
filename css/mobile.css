@@ -179,3 +179,37 @@ nav.main li:hover a {
 #watchtoday {
   background: linear-gradient(0deg,#8900bf 30%,#a101d1 54.11%,#005dd6 99.44%);
 }
+#prayerjournal {
+  background: linear-gradient(180deg,#007be0 30%,#6f00ff 70.11%);
+  margin-bottom: 0rem;
+}
+
+#prayerjournal .brand {
+  /* padding-right: 2rem; */
+  margin-top: 3rem;
+}
+#prayerjournal .imgs {
+  /* position: absolute; */
+  margin-right: 2rem;
+  left: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* margin-left: 1rem; */
+}
+#prayerjournal .imgs img {
+  /* position: absolute; */
+  left: 0px;
+  width: 150px !important;
+  /* height: 150px; */
+  /* border: 3px solid black; */
+  margin: 0px;
+  /* box-shadow: 0px 0px 5px 3px rgba(193, 118, 255, 1); */
+  border-radius: 0.75rem;
+}
+#prayerjournal img + img {
+  margin-left: 1rem !important;
+}

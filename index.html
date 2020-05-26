@@ -23,6 +23,7 @@
  <link rel="stylesheet" href="css/needless.css" />
  <link rel="stylesheet" href="css/optics.css" />
  <link rel="stylesheet" href="css/watchtoday.css" />
+ <link rel="stylesheet" href="css/prayerjournal.css" />
  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600&display=swap" rel="stylesheet" />
  <!-- <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400&display=swap" rel="stylesheet"> -->
 
@@ -133,7 +134,7 @@
      <h1 class="inline">Skills</h1>
      <p class="inline">
       HTML&CSS <span class="bold">JavaScript</span><br />
-      <span class="bold">Node.js</span> Express 
+      <span class="bold">Node.js</span> Express
       <span class="bold">React</span> Redux Socket.io<br />
       <span class="bold">Progressive Web Apps</span><br />
       p5.js Creative Coding <span class="bold">Game Development</span><br />
@@ -157,6 +158,7 @@
   <div class="spacer"></div>
   <div class="spacer"></div>
   <h1 class="title">JavaScript Web Projects</h1>
+
   <div class="display" id="drawboard">
    <div>
     <div class="brand anim fadeintoleft">
@@ -188,31 +190,42 @@
     </div>
    </div>
   </div>
-  <div class="display" id="needless">
-   <div class="anim fadein">
-    <div class="logo">
-     <img src="/img/needlesslogo.jpg" alt="" srcset="" />
+  
+  <div class="display" id="prayerjournal">
+    <div class="anim fadein">
+     <div class="imgs">
+      <img src="img/pj-ss1.jpg" alt="" srcset="" />
+      <img src="img/pj-ss2.jpg" alt="" srcset="" />
+      <!-- <img src="img/pj-ss3.png" alt="" srcset="" /> -->
+     </div>
     </div>
-   </div>
-
-   <div class="brand anim fadeintoright">
     <div>
-     <div>
-      <a href="https://github.com/umerkay/needless-library" class="btn" target="_blank">Code</a>
-      <a href="https://umerkay.github.io/needlessjs/" class="btn" target="_blank">Website</a>
-      <h1 class="title">needlessjs</h1>
-      <h2 class="sub">JavaScript Canvas Management Libray</h2>
-      <p class="info">
-       Needless aims to make the process of working with canvases in
-       JavaScript much simpler and more intuitive than it currently is.
-       It enables Sketches, Games, Computer Graphic projects, and more,
-       with the JavaScript that matters and without the need to work
-       with DOM elements and to setup redundant code for every project.
-      </p>
+     <div class="brand anim fadeintoright">
+      <div>
+       <div>
+        <a class="btn" href="https://github.com/umerkay/watchtoday" target="_blank">Code</a>
+        <a class="btn" href="https://umerkay.github.io/watchtoday" target="_blank">View Live</a>
+        <br>
+        <div class="titleNicon">
+         <img src="img/pj-logo.png" width="50px" alt="" srcset="">
+         <h1 class="title">
+          Prayer Journal</span></h1>
+        </div>
+        <h2 class="sub">
+         A journal for Muslims to record daily obligatory Salah. PWA that syncs accross all types of devices
+        </h2>
+        <div class="spacer"></div>
+        <ul class="info">
+         <li>React, with Hooks, Functional Components and the Context API only</li>
+         <li>Secure and Realtime sync with Firebase Firestore and Authentication</li>
+         <li>Modern, Minimalist Design. Can work Offline</li>
+         <li>Makes use of Sass/Scss</li>
+        </ul>
+       </div>
+      </div>
      </div>
     </div>
    </div>
-  </div>
 
   <div class="display" id="watchtoday">
    <div>
@@ -240,6 +253,31 @@
     <div class="imgs">
      <img src="img/watchtoday01.png" alt="" srcset="" />
      <img src="img/watchtoday02.png" alt="" srcset="" />
+    </div>
+   </div>
+  </div>
+  <div class="display" id="needless">
+   <div class="anim fadein">
+    <div class="logo">
+     <img src="/img/needlesslogo.jpg" alt="" srcset="" />
+    </div>
+   </div>
+
+   <div class="brand anim fadeintoright">
+    <div>
+     <div>
+      <a href="https://github.com/umerkay/needless-library" class="btn" target="_blank">Code</a>
+      <a href="https://umerkay.github.io/needlessjs/" class="btn" target="_blank">Website</a>
+      <h1 class="title">needlessjs</h1>
+      <h2 class="sub">JavaScript Canvas Management Libray</h2>
+      <p class="info">
+       Needless aims to make the process of working with canvases in
+       JavaScript much simpler and more intuitive than it currently is.
+       It enables Sketches, Games, Computer Graphic projects, and more,
+       with the JavaScript that matters and without the need to work
+       with DOM elements and to setup redundant code for every project.
+      </p>
+     </div>
     </div>
    </div>
   </div>

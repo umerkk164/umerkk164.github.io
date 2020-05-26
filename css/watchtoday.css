@@ -32,13 +32,13 @@
 #watchtoday .imgs img {
   /* position: absolute; */
   left: 0px;
-  width: 300px;
+  width: 400px;
   border: 3px solid white;
 
   /* box-shadow: 0px 0px 5px 3px rgba(193, 118, 255, 1); */
   /* border-radius: 0.5rem; */
 }
-img + img {
+#watchtoday img + img {
   margin-top: 1rem;
 }
 #watchtoday .imgs img:nth-child(2) {
