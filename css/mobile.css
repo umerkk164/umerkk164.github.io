@@ -21,6 +21,14 @@
   padding: 5rem 1rem !important;
 }
 
+
+.display:nth-child(2n) {
+  margin-left: 0rem;
+}
+.display:nth-child(2n+1) {
+  margin-right: 0rem;
+}
+
 .display .brand {
   margin-bottom: 2rem;
 }
@@ -181,7 +189,7 @@ nav.main li:hover a {
 }
 #prayerjournal {
   background: linear-gradient(180deg,#007be0 30%,#6f00ff 70.11%);
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
 }
 
 #prayerjournal .brand {

@@ -215,8 +215,16 @@ ul {
   align-content: center;
   padding: 8rem;
   margin-bottom: 1rem;
+  border-radius: 1.5rem;
   /* margin: 3rem 0rem; */
 }
+/* 
+.display:nth-child(2n) {
+  margin-left: 3rem;
+}
+.display:nth-child(2n+1) {
+  margin-right: 3rem;
+} */
 
 .anim > *.show {
   animation-duration: 500ms;
