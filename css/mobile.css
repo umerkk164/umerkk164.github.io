@@ -21,6 +21,19 @@
   padding: 5rem 1rem !important;
 }
 
+#nf {
+  background-position: -400px;
+  justify-content: end;
+  transform: scaleX(1);
+  text-align: right;
+
+}
+
+#nf .brand {
+  transform: scaleX(1);
+  width: 100%;
+}
+
 
 .display:nth-child(2n) {
   margin-left: 0rem;
