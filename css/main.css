@@ -76,40 +76,9 @@ ul {
   color: white;
 }
 
-.btn.primary {
-  background: -moz-linear-gradient(
-    0% 50% 0deg,
-    rgba(0, 99, 255, 1) 0%,
-    rgba(191, 0, 255, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(0, 99, 255, 1) 0%,
-    rgba(191, 0, 255, 1) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    0% 50%,
-    100% 50%,
-    color-stop(0, rgba(0, 99, 255, 1)),
-    color-stop(1, rgba(191, 0, 255, 1))
-  );
-  background: -o-linear-gradient(
-    0deg,
-    rgba(0, 99, 255, 1) 0%,
-    rgba(191, 0, 255, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    0deg,
-    rgba(0, 99, 255, 1) 0%,
-    rgba(191, 0, 255, 1) 100%
-  );
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0063FF', endColorstr='#BF00FF' ,GradientType=0)";
-  background: linear-gradient(
-    90deg,
-    rgba(0, 99, 255, 1) 0%,
-    rgba(191, 0, 255, 1) 100%
-  );
+.btn.primary {background: rgb(113,6,236);
+  background: linear-gradient(90deg, rgba(113,6,236,1) 0%, rgba(219,0,189,1) 63%, rgba(132,0,255,1) 100%);
+
   border-radius: 21px;
   -moz-border-radius: 21px;
   -webkit-border-radius: 21px;
@@ -139,12 +108,12 @@ ul {
     color-stop(1, rgba(0, 99, 255, 1))
   );
   background: -o-linear-gradient(
-    0deg,
+    90deg,
     rgba(191, 0, 255, 1) 0%,
     rgba(0, 99, 255, 1) 100%
   );
   background: -ms-linear-gradient(
-    0deg,
+    90deg,
     rgba(191, 0, 255, 1) 0%,
     rgba(0, 99, 255, 1) 100%
   );

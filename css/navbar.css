@@ -59,39 +59,9 @@ nav.main li:hover a {
 
 nav.main li.selected a,
 nav.main li.selected:hover a {
-  background: -moz-linear-gradient(
-    0% 50% 0deg,
-    rgba(0, 191, 255, 1) 0%,
-    rgba(132, 127, 255, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(0, 191, 255, 1) 0%,
-    rgba(132, 127, 255, 1) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    0% 50%,
-    100% 50%,
-    color-stop(0, rgba(0, 191, 255, 1)),
-    color-stop(1, rgba(132, 127, 255, 1))
-  );
-  background: -o-linear-gradient(
-    0deg,
-    rgba(0, 191, 255, 1) 0%,
-    rgba(132, 127, 255, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    0deg,
-    rgba(0, 191, 255, 1) 0%,
-    rgba(132, 127, 255, 1) 100%
-  );
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BFFF', endColorstr='#847FFF' ,GradientType=0)";
-  background: linear-gradient(
-    90deg,
-    rgba(0, 191, 255, 1) 0%,
-    rgba(132, 127, 255, 1) 100%
-  );
+  background: rgb(113,6,236);
+                    background: linear-gradient(90deg, rgba(113,6,236,1) 0%, rgb(168, 0, 219) 63%);
+                  
   border-radius: 21px;
   -moz-border-radius: 21px;
   -webkit-border-radius: 21px;
