@@ -11,6 +11,8 @@
 }
 
 #quicklinks .links {
+    margin-top: 0.25rem;
+    justify-content: center;
     display: flex;
     gap: 1rem;
     align-items: center;
